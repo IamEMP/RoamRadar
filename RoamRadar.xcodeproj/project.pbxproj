@@ -12,6 +12,7 @@
 		D91AA93F2AC9EA5F00EC5D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91AA93E2AC9EA5F00EC5D83 /* Assets.xcassets */; };
 		D91AA9422AC9EA5F00EC5D83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91AA9412AC9EA5F00EC5D83 /* Preview Assets.xcassets */; };
 		D91AA9492AC9EAD900EC5D83 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91AA9482AC9EAD900EC5D83 /* Destination.swift */; };
+		D9BD07322ACD97EC008FE65C /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BD07312ACD97EC008FE65C /* EditDestinationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D91AA93E2AC9EA5F00EC5D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D91AA9412AC9EA5F00EC5D83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D91AA9482AC9EAD900EC5D83 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		D9BD07312ACD97EC008FE65C /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				D91AA93A2AC9EA5E00EC5D83 /* RoamRadarApp.swift */,
 				D91AA93C2AC9EA5E00EC5D83 /* ContentView.swift */,
 				D91AA9482AC9EAD900EC5D83 /* Destination.swift */,
+				D9BD07312ACD97EC008FE65C /* EditDestinationView.swift */,
 				D91AA93E2AC9EA5F00EC5D83 /* Assets.xcassets */,
 				D91AA9402AC9EA5F00EC5D83 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				D91AA93D2AC9EA5E00EC5D83 /* ContentView.swift in Sources */,
 				D91AA93B2AC9EA5E00EC5D83 /* RoamRadarApp.swift in Sources */,
 				D91AA9492AC9EAD900EC5D83 /* Destination.swift in Sources */,
+				D9BD07322ACD97EC008FE65C /* EditDestinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,33 +11,42 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) var modelContext
     @Query var destinations: [Destination]
+    @State private var path = [Destination]()
     
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             List {
                 ForEach(destinations) { destination in
-                    VStack(alignment: .leading)  {
-                        Text(destination.name)
-                            .font(.headline)
-                        
-                        Text(destination.date.formatted(date: .long, time: .shortened))
+                    NavigationLink(value: destination) {
+                        VStack(alignment: .leading)  {
+                            Text(destination.name)
+                                .font(.headline)
+                            
+                            Text(destination.date.formatted(date: .long, time: .shortened))
+                        }
                     }
                 }
+                .onDelete(perform: deleteDestinations)
             }
             .navigationTitle("Roam Radar")
+            .navigationDestination(for: Destination.self, destination: EditDestinationView.init)
             .toolbar {
-                Button("Add Samples", action: addSamples)
+                Button("Add Destination", systemImage: "plus", action: addDestination)
             }
         }
     }
-    func addSamples() {
-        let rome = Destination(name: "Rome")
-        let canada = Destination(name: "Canada")
-        let grandCanyon = Destination(name: "Grand Canyon")
-        
-        modelContext.insert(rome)
-        modelContext.insert(canada)
-        modelContext.insert(grandCanyon)
+    
+    func addDestination() {
+        let destination = Destination()
+        modelContext.insert(destination)
+        path = [destination]
+    }
+    
+    func deleteDestinations(_ indexSet: IndexSet) {
+        for index in indexSet {
+            let destination = destinations[index]
+            modelContext.delete(destination)
+        }
     }
 }
 
