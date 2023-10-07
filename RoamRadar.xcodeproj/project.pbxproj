@@ -13,6 +13,7 @@
 		D91AA9422AC9EA5F00EC5D83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91AA9412AC9EA5F00EC5D83 /* Preview Assets.xcassets */; };
 		D91AA9492AC9EAD900EC5D83 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91AA9482AC9EAD900EC5D83 /* Destination.swift */; };
 		D9561FD42AD03AFD00B86D94 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9561FD32AD03AFD00B86D94 /* DestinationListingView.swift */; };
+		D991E1412AD1BB9600120491 /* Sight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991E1402AD1BB9600120491 /* Sight.swift */; };
 		D9BD07322ACD97EC008FE65C /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BD07312ACD97EC008FE65C /* EditDestinationView.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		D91AA9412AC9EA5F00EC5D83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D91AA9482AC9EAD900EC5D83 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		D9561FD32AD03AFD00B86D94 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
+		D991E1402AD1BB9600120491 /* Sight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight.swift; sourceTree = "<group>"; };
 		D9BD07312ACD97EC008FE65C /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 				D9561FD32AD03AFD00B86D94 /* DestinationListingView.swift */,
 				D91AA9482AC9EAD900EC5D83 /* Destination.swift */,
 				D9BD07312ACD97EC008FE65C /* EditDestinationView.swift */,
+				D991E1402AD1BB9600120491 /* Sight.swift */,
 				D91AA93E2AC9EA5F00EC5D83 /* Assets.xcassets */,
 				D91AA9402AC9EA5F00EC5D83 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				D91AA93D2AC9EA5E00EC5D83 /* ContentView.swift in Sources */,
 				D91AA93B2AC9EA5E00EC5D83 /* RoamRadarApp.swift in Sources */,
 				D91AA9492AC9EAD900EC5D83 /* Destination.swift in Sources */,
+				D991E1412AD1BB9600120491 /* Sight.swift in Sources */,
 				D9BD07322ACD97EC008FE65C /* EditDestinationView.swift in Sources */,
 				D9561FD42AD03AFD00B86D94 /* DestinationListingView.swift in Sources */,
 			);
